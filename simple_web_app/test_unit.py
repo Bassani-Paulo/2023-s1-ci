@@ -74,3 +74,5 @@ def test_8_chars_with_with_forbiden_char_password_should_raise_exception():
     with pytest.raises(Exception):  # then
         # when
         validator.password_validate()
+
+
